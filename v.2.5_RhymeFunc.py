@@ -244,6 +244,6 @@ elif Chosen_scheme == 'Iambic Octameter':
     realchosen = iambicoctameter
 elif Chosen_scheme == 'Haiku':
     realchosen = haiku
-st.write(poemwriter(realchosen))
+st.write(print(poemwriter(realchosen)))
     
     
