@@ -6,7 +6,7 @@ import pandas as pd
 import numpy as np
 from random import seed
 from random import randint
-st.title('Poems! Poems! Get your non-sense poeeems!')
+st.title('Nonsense poetry generator')
 
     
     # Step 2: We then define a library of schemes for the function.
