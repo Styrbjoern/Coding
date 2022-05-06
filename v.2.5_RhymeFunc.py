@@ -162,7 +162,7 @@ def poemwriter(scheme=couplet):
             # If the scheme requires a line break, we represent that with a slash.
         
             if word == 'linebreak':
-                poem = poem + '\n'
+                poem = poem + ' / '
             
             # Next, let's account for words that don't have to rhyme.
             # These only need to match the syllable/stress pattern, so we make a list of words that match,
@@ -244,6 +244,6 @@ elif Chosen_scheme == 'Iambic Octameter':
     realchosen = iambicoctameter
 elif Chosen_scheme == 'Haiku':
     realchosen = haiku
-st.write(print(poemwriter(realchosen)))
+st.write(poemwriter(realchosen))
     
     
