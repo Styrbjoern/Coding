@@ -7,9 +7,9 @@ import numpy as np
 from random import seed
 from random import randint
 st.title('Nonsense poetry generator')
-st.caption("""Welcome to the Nonsense Poetry Generator, or NPG!
-When you pick a type of poem from the box, the NPG creates a unique poem for you. Your poem might not make sense (at all!), but it can always be read out loud in the rhythm of the type of poem you chose. The NPG doesn't know a whole lot of different words yet, but it'll always do its best to come up with something that rhymes in the right places!
-If you want to learn more about the different types of poems, you can click to expand the box below!""")
+st.caption("Welcome to the Nonsense Poetry Generator, or NPG!")
+st.caption("When you pick a type of poem from the box, the NPG creates a unique poem for you. Your poem might not make sense (at all!), but it can always be read out loud in the rhythm of the type of poem you chose. The NPG doesn't know a whole lot of different words yet, but it'll always do its best to come up with something that rhymes in the right places!")
+st.caption("If you want to learn more about the different types of poems, you can click to expand the box below!")
 
 with st.expander("What are the types of poems?"):
      st.subheader('Couplet')
@@ -26,11 +26,11 @@ with st.expander("What are the types of poems?"):
      """)
      st.subheader('Iambic Octameter')
      st.write("""
-         This one is just like the Iambic Pentameter, except it just kind of... forgets to stop. If you know the tune of Gilbert & Sullivan's 'Modern Major General Song', you can sing these poems to it!
+         This one is just like the Iambic Pentameter, except it just kind of... forgets to stop. If you know the tune of Gilbert & Sullivan's 'Modern Major General Song', you can sing these poems!
      """)
      st.subheader('Haiku')
      st.write("""
-         This is a poem made of three lines - the first has five syllable, the second has seven, and the last has five again. NPG thinks Haiku are a nice change because it doesn't have to come up with rhymes.
+         This is a poem made of three lines - the first has five syllables, the second has seven, and the last has five again. NPG thinks Haiku are a nice change because it doesn't have to come up with rhymes.
      """)
 
 #GNU Sir Terry Pratchett
