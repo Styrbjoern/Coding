@@ -8,6 +8,8 @@ from random import seed
 from random import randint
 st.title('Nonsense poetry generator')
 
+#GNU Sir Terry Pratchett
+#GNU Vibeke Jensen
     
     # Step 2: We then define a library of schemes for the function.
     # Each scheme is generated from a selection of possible structures for each line.
@@ -232,7 +234,7 @@ def poemwriter(scheme=couplet):
     
 Chosen_scheme = st.selectbox(
      'Which kind of poem do you want to hear?',
-     ('Couplet', 'Limerick', 'Iambic Pentameter','Iambic Octameter','Haiku'))
+     ('Pick a poem','Couplet', 'Limerick', 'Iambic Pentameter','Iambic Octameter','Haiku'))
     
 if Chosen_scheme == 'Couplet':
     realchosen = couplet
