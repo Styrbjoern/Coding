@@ -7,9 +7,31 @@ import numpy as np
 from random import seed
 from random import randint
 st.title('Nonsense poetry generator')
-st.caption("Welcome to the Nonsense Poetry Generator, or NPG!")
-st.caption("When you pick a type of poem from the box, the NPG creates a unique poem for you. Your poem might not make sense (at all!), but it can always be read out loud in the rhythm of the type of poem you chose. The NPG doesn't know a whole lot of different words yet, but it'll always do its best to come up with something that rhymes in the right places!")
-st.caption("If you want to learn more about the different types of poems, click to expand the section below!")
+st.caption("""Welcome to the Nonsense Poetry Generator, or NPG!
+When you pick a type of poem from the box, the NPG creates a unique poem for you. Your poem might not make sense (at all!), but it can always be read out loud in the rhythm of the type of poem you chose. The NPG doesn't know a whole lot of different words yet, but it'll always do its best to come up with something that rhymes in the right places!
+If you want to learn more about the different types of poems, click to expand the section below!""")
+
+with st.expander("What are the types of poems?"):
+     st.subheader('Couplet')
+     st.write("""
+         A couplet is a short poem made of two lines. It's the first type of poems NPG learned to write, and although it has come far since then, it still takes pride in its humble roots.
+     """)
+     st.subheader('Limerick')
+     st.write("""
+         A limerick is a poem with a complicated rhyming scheme: AABBA, where the B lines are shorter than the A lines. Typically there's a place name of some sort in a limerick, but the NPG is so focused on getting the rhythm right that it often forgets about that.
+     """)
+     st.subheader('Iambic Pentameter')
+     st.write("""
+         Each line in a Iambic Pentameter consists of five iambs - that is to say, there's stress on every other syllable. It's the meter that Shakespeare used. When you ask NPG to write one of these, it imagines shouting it from a stage to a confused audience.
+     """)
+     st.subheader('Iambic Octameter')
+     st.write("""
+         This one is just like the Iambic Pentameter, except it just kind of... forgets to stop. If you know the tune of Gilbert & Sullivan's 'Modern Major General Song', you can sing these poems to it!
+     """)
+     st.subheader('Haiku')
+     st.write("""
+         This is a poem made of three lines - the first has five syllable, the second has seven, and the last has five again. NPG thinks Haiku are a nice change because it doesn't have to come up with rhymes.
+     """)
 
 #GNU Sir Terry Pratchett
 #GNU Vibeke Jensen
