@@ -18,7 +18,7 @@ with st.expander("What are the types of poems?"):
      """)
      st.subheader('Limerick')
      st.write("""
-         A limerick is a poem with a complicated rhyming scheme: AABBA, where the B lines are shorter than the A lines. Typically there's a place name of some sort in a limerick, but the NPG is so focused on getting the rhythm right that it often forgets about that.
+         A limerick is a poem with a complex rhyming scheme: AABBA, where the B lines are shorter than the A lines. Typically there's a place name of some sort in a limerick, but the NPG is so focused on getting the rhythm right that it often forgets about that.
      """)
      st.subheader('Iambic Pentameter')
      st.write("""
