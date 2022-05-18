@@ -7,6 +7,7 @@ import numpy as np
 from random import seed
 from random import randint
 st.title('Nonsense poetry generator')
+st.caption("Welcome to the Nonsense Poetry Generator, or NPG!\nWhen you pick a type of poem from the box, the NPG creates a unique poem for you. Your poem might not make sense (at all!), but it can always be read out loud in the rhythm of the type of poem you chose. \nIf you want to learn more about the different types of poems, click to expand the section below!")
 
 #GNU Sir Terry Pratchett
 #GNU Vibeke Jensen
