@@ -237,15 +237,16 @@ Chosen_scheme = st.selectbox(
      ('Pick a poem','Couplet', 'Limerick', 'Iambic Pentameter','Iambic Octameter','Haiku'))
     
 if Chosen_scheme == 'Couplet':
-    realchosen = couplet
+    st.write(poemwriter(couplet))
 elif Chosen_scheme == 'Limerick':
-    realchosen = limerick
+    st.write(poemwriter(limerick))
 elif Chosen_scheme == 'Iambic Pentameter':
-    realchosen = iambicpentameter
+    st.write(poemwriter(iambicpentameter))
 elif Chosen_scheme == 'Iambic Octameter':
-    realchosen = iambicoctameter
+    st.write(poemwriter(iambicoctameter))
 elif Chosen_scheme == 'Haiku':
-    realchosen = haiku
-st.write(poemwriter(realchosen))
+    st.write(poemwriter(haiku))
+elif Chosen_scheme == 'Pick a poem':
+    st.write('This is where your poem will appear.')
     
     
