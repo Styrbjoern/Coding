@@ -9,7 +9,7 @@ from random import randint
 st.title('Nonsense poetry generator')
 st.caption("""Welcome to the Nonsense Poetry Generator, or NPG!
 When you pick a type of poem from the box, the NPG creates a unique poem for you. Your poem might not make sense (at all!), but it can always be read out loud in the rhythm of the type of poem you chose. The NPG doesn't know a whole lot of different words yet, but it'll always do its best to come up with something that rhymes in the right places!
-If you want to learn more about the different types of poems, click to expand the section below!""")
+If you want to learn more about the different types of poems, you can click to expand the box below!""")
 
 with st.expander("What are the types of poems?"):
      st.subheader('Couplet')
